@@ -1,0 +1,16 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# === 添加下面这几行 ===
+# Model files
+*.pkl
+
+# Data files
+*.mat
