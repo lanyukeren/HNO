@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository provides the official source code, datasets, and pre-trained models for the paper:
+This repository provides the official source code for the paper:
 
 > **Hermite Neural Operator for Solving Partial Differential Equations on Unbounded Domains**
 >
@@ -12,9 +12,9 @@ This repository provides the official source code, datasets, and pre-trained mod
 
 ## 📖 Overview
 
-The **Hermite Neural Operator (HNO)** is a novel framework that solves PDEs on unbounded domains by integrating the classical Hermite spectral method into a neural operator architecture. By using Hermite functions as the basis, HNO inherently enforces the correct far-field decay conditions required for unbounded problems, completely avoiding periodic artifacts.
+The **Hermite Neural Operator (HNO)** is a novel framework that solves PDEs on unbounded domains by integrating the classical Hermite spectral method into a neural operator architecture. By using Hermite functions as the basis, HNO inherently enforces the correct far-field decay conditions required for unbounded problems, avoiding periodic artifacts.
 
-As demonstrated in the paper, HNO achieves significantly higher accuracy and robust off-grid extrapolation on challenging benchmarks, including the Nonlinear Schrödinger (NLS) and Heat equations, when compared to FNO, POD-DeepONet, and LSM.
+As demonstrated in the paper, HNO achieves significantly high accuracy and robust off-grid extrapolation on challenging benchmarks, including the Nonlinear Schrödinger (NLS) and Heat equations.
 
 ## 🚀 Getting Started
 
@@ -38,6 +38,5 @@ The code is organized by experiment, located within the `Hermite/` directory:
     * `hnosc2d.py`: Main training and evaluation script.
     * `hermitepack_sc2d.py`: HNO model definition.
 * `/Hermite/data/`: All datasets (`.mat` files) used in the paper.
-* `/Hermite/model/`: All pre-trained models (`.pkl` files) used in the paper.
 
 
