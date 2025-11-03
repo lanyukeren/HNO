@@ -1,7 +1,7 @@
 ## 📚 Pre-trained Models
 
 
-The pre-trained models (`.pkl`) are too large for this repository and are hosted externally.
+The pre-trained models are too large for this repository and are hosted externally.
 
 **[Download Pre-trained Models Here](https://drive.google.com/drive/folders/10yJsbyO9k_5RoLs5O31-odpQqhVUsIhg?usp=sharing)**
 
